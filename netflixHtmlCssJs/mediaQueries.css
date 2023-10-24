@@ -1,0 +1,214 @@
+@media screen and (width<=768px) {
+    .section1content{
+        width: 95%;
+    }
+    .section1head{
+        padding: 8px 12px;
+    }
+    .select1right{
+        gap:12px;
+    }
+    .selectbox{
+        padding: 2px 4px;
+    }
+    .section1btn{
+        padding: 0 16px;
+    }
+    .section1Logo img{
+        height: 28px;
+        width: fit-content;
+    }
+    .section1{
+        height: auto;
+    }
+    .black{
+        height: auto;
+    }
+    .section1body{
+        padding: 16px 24px;
+    }
+    .section1body .text1{
+        font-size: 2rem;
+    }
+    .section1body .text2{
+        font-size: 1rem;
+    }
+    .section1body .text3{
+        font-size: 1rem;
+    }
+    .section-search{
+        width: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .section-search input{
+        padding: 18px 12px;
+        flex-grow: 1;
+    }
+    .section-search button{
+        font-size: 1.2rem;
+        padding: 0rem 1.6rem;
+    }
+
+
+    .section2{
+        padding: 32px;
+    }
+    .section2content{
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0;
+        /* height: auto; */
+    }
+    .section2text{
+        width: 100%;
+        height: 120px;
+        /* background-color: red; */
+        padding: 0;
+    }
+    .section2text .section2text1{
+        font-size: 2.2rem;
+        transform: translateY(0px);
+        text-align: center;
+    }
+    .section2text .section2text2{
+        font-size: 0.9rem;
+        /* transform: translateY(-50px); */
+        text-align: center;
+    }
+    .section2image{
+        height: 360px;
+        width: 440px;
+    } 
+    .section2image img{
+        height: 360px;
+        width: 440px;
+    } 
+    .section2video{
+        color: white;
+        height: 220px;
+        width: 320px;
+        transform: translate(58px,-282px);
+    }
+    .section2video video{
+        /* height: 240px; */
+        width: 320px;
+    }
+
+
+
+    .section3{
+        padding: 32px;
+    }
+    .section3content{
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap-reverse;
+        gap: 0;
+        /* height: auto; */
+    }
+    .section3text{
+        width: 100%;
+        height: 180px;
+        /* background-color: red; */
+    }
+    .section3text .section3text1{
+        font-size: 1.8rem;
+        transform: translateY(0px);
+        text-align: center;
+    }
+    .section3text .section3text2{
+        font-size: 1rem;
+        transform: translateY(-50px);
+        text-align: center;
+        margin-top: 25px;
+    }
+
+
+
+
+    .section3image{
+        height: 400px;
+        width: 450px;
+    }
+    .section3image img{
+        height: 400px;
+        width: 450px;/
+    }
+    .downloading{
+        height: 60px;
+        width: 350px;
+        background-color: black;
+        transform:translate(45px,-140px);
+        border-radius: 0.75rem;
+        border: 2px solid darkgray;
+        padding: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .downloading img{
+        height: 60px;
+        width: 50px;
+    }
+    .downloading-text{
+        flex-grow: 1;
+        margin-left: 16px;
+    }
+    .section4text2{
+        width: 90%;
+        /* background-color: blue; */
+    }
+    .section5text2{
+        /* background-color: red; */
+        width: 90%;
+        font-size: 0.9rem !important;
+    }
+    .section4video{
+        transform: translate(90px,50px);
+        height: 220px;
+        width: 260px;
+    }
+    .footer{
+        height: auto;
+        /* background-color: blue; */
+        display: flex;
+        justify-content: space-between;
+        gap: 24px;
+    }
+    .footer-section{
+        display: flex;
+        flex-direction: column;
+        /* background-color: blueviolet; */
+        flex-grow: 1;
+    }
+    .footer-section a{
+        margin-top:18px;
+        color:white;
+        font-size: 0.9rem;
+    }
+    .section7content{
+        width: 88%;
+        margin: 0 auto;
+        /* background-color: red; */
+    }
+    .section6header{
+        font-size: 2rem;
+    }
+    .accordion li label{
+        font-size: 1.1rem;
+    }
+    .section6content{
+        width: 94%;
+        margin: 0 auto;
+        /* background-color: red; */
+    }
+    label::after{
+        content: '+';
+        font-size: 1.2rem;
+        position: absolute;
+        right: 20px;
+    }
+}
